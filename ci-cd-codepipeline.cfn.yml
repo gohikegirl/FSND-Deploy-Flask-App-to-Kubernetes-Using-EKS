@@ -8,11 +8,11 @@ Parameters:
 
   EksClusterName:
     Type: String
-    Description: simple_jwt_api
-    Default: simple_jwt_api
+    Description: simple-jwt-api
+    Default: simple-jwt-api
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: simple_jwt_api
+    ConstraintDescription: simple-jwt-api
 
   GitSourceRepo:
     Type: String
